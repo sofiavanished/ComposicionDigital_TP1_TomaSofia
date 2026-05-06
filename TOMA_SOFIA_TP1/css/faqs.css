@@ -1,0 +1,77 @@
+h1{
+    margin-top: 50px;
+
+}
+.faqs{
+    display: flex;    
+}
+.h2{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;   
+    text-align: left;
+    width: 20%;    
+}
+img{    
+    width: 33%;    
+}
+
+.listatexto{
+    display: inline-block;    
+    float: right;
+    text-align: left;
+    width: 70%;  
+}
+.barra{
+    margin-top: 10px;
+    padding: 0;
+    width: 525px;
+    height: 8px;
+}
+.barraazul{
+    width: 97vw;
+    height: 3px;
+    margin-top: 50px;  
+    
+}
+
+div{
+    align-items: baseline;
+}
+.izq{
+    text-align: center;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-right: 27px;
+}
+label{
+    padding-bottom: 20px;
+    
+}
+button{
+    width: 20%;
+    align-self: center;    
+}
+form {
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 20px;
+max-width: 800px;
+margin: 0 auto;
+}
+input, textarea {
+background: #ffffff;
+border: 3px solid white;
+border-radius: 5px;
+margin-bottom: 15px;
+color: rgb(0, 0, 0);
+width: 100%;
+display: flex;
+}
+textarea {
+grid-column: span 2; 
+height: 100px;
+}
+

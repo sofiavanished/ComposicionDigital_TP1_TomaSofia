@@ -1,0 +1,60 @@
+
+img{
+   
+    width: 30%;
+    margin: 0;
+}
+.botones{
+    display: flex;
+    margin: 0;
+    
+}
+
+
+h1{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.mapa{
+    display: flex;
+    margin-top: 50px;
+}
+
+.h2{
+    display: flex; 
+    align-items: baseline;   
+    text-align: left;
+    width: 20%;
+    flex-direction: column;
+    
+}
+.listatexto{
+    display: inline-block;        
+    text-align: left;
+    width: 70%;
+    margin-left: 50px;
+    
+}
+.barra{
+    margin-bottom: 40px;
+    padding: 0;
+    width:300px;
+    height: 8px;
+}
+.barraazul{
+    width: 98vw;
+    height: 3px;
+    margin-top: 50px;
+        
+}
+
+.fondoazul{
+    background-color: rgb(10, 81, 97);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 100VW;
+}
+
+div{
+    align-items: baseline;
+}
